@@ -1,7 +1,7 @@
 #########################################
-# ToxicBomber
+# FuadBomber
 # A Bangladeshi SMS Bomber Tool
-# Author: ToxicNoob Inc.
+# Author: Fuad Bomber Inc.
 # GitHub: https://github.com/Toxic-Noob
 # Version: 4.1.0
 #########################################
@@ -101,7 +101,7 @@ def logo():
     print("\033[94m│ \033[95mAuthor : ToxicNoob Inc.                \033[94m│".center(columns+15))
     print("│ \033[95mTool   : Unlimited SMS Bomber          \033[94m│".center(columns+9))
     print("│ \033[95mGitHub : https://github.com/Toxic-Noob \033[94m│".center(columns+9))
-    print("│ \033[95mCoder  : Fuad             \033[37mV4.1 \033[94m│".center(columns+15))
+    print("│ \033[95mCoder  : Fuad      bomber       \033[37mV4.1 \033[94m│".center(columns+15))
     print("\033[94m└────────────────────────────────────────┘".center(columns+5))
 
 
