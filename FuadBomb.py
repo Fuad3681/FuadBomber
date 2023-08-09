@@ -52,7 +52,7 @@ def update():
     try:
         toolVersion = json.loads(open("./more/.version", "r").read())["version"]
     except:
-        toolVersion = "ToxicNoob"
+        toolVersion = "FuadBomber"
     
     try:
         authorMsg = open("./more/.msg", "r").read().replace("\n", "")
@@ -76,13 +76,13 @@ def update():
         time.sleep(0.5)
         psb("    \033[92m[\033[37m!\033[92m] \033[37mUpdating Tool: ", end="")
         
-        os.system("cd .. && rm -rf ToxicBomber && git clone https://github.com/Toxic-Noob/ToxicBomber > /dev/null 2>&1")
+        os.system("cd .. && rm -rf FuadBomber && git clone https://github.com/Fuad3681/FuadBomber > /dev/null 2>&1")
         
         print("\033[37mDone")
         psb("\n    \033[92m[\033[37m*\033[92m] \033[37mStarting Tool...")
         time.sleep(0.8)
         
-        os.system("cd .. && cd ToxicBomber && python Tbomb.py")
+        os.system("cd .. && cd Fuad Bomber && python FuadBomb.py")
     
     else:
         if (authorMsg != newMsg) and (newMsg != "blank"):
@@ -134,7 +134,7 @@ def check(sent):
         psb("\n\n\033[92m    [\033[37m*\033[92m] Bombing Finished!")
         psb("\033[92m    [\033[37m*\033[92m] Amount : \033[37m" + str(amount))
         psb("\033[92m    [\033[37m*\033[92m] Target : \033[37m0" + main.number)
-        psb("\033[92m    [\033[37m*\033[92m] From   : \033[37mToxicBomber\n")
+        psb("\033[92m    [\033[37m*\033[92m] From   : \033[37mFuadBomber\n")
         time.sleep(0.6)
         print("\033[92m[\033[93m★\033[92m] Thanks For Using Our Tool by fuad\033[92m[\033[93m★\033[92m]".center(columns + 30))
         print("\033[37m")
